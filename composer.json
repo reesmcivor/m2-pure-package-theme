@@ -1,0 +1,14 @@
+{
+    "name": "reesmcivor/m2-pure-package-theme",
+    "description": "Magento 2 theme by Rees McIvor",
+    "type": "magento2-theme",
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.3.0||~7.4.0||~8.0.0||~8.1.0||~8.2.0",
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
