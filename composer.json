@@ -4,11 +4,16 @@
     "type": "magento2-theme",
     "version": "1.0.0",
     "require": {
-        "php": "~7.3.0||~7.4.0||~8.0.0||~8.1.0||~8.2.0",
+        "php": "~7.3.0||~7.4.0||~8.0.0||~8.1.0||~8.2.0"
     },
+    "minimum-stability": "dev",
+    "require": {},
     "autoload": {
         "files": [
             "registration.php"
-        ]
+        ],
+        "psr-4": {
+            "ReesMcIvor\\ProjectorDistance\\": ""
+        }
     }
 }
